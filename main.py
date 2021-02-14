@@ -21,7 +21,6 @@ while True:
             for website in website_to_block:
                 f.write(loopback_ip_addr + ' ' + website + '\n')
                 f.write(loopback_ip_addr + ' www.' + website + '\n')
-            f.close()
     else:
         with open(host_file, 'r+') as f:
             lines = f.readlines()

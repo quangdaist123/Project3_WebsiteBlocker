@@ -12,7 +12,6 @@ def block():
         for website in website_to_block:
             f.write(loopback_ip_addr + ' ' + website + '\n')
             f.write(loopback_ip_addr + ' www.' + website + '\n')
-        f.close()
         # Show message
         status.set("Okeeee")
 
