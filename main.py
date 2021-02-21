@@ -8,10 +8,10 @@ website_to_block = ['facebook.com', 'youtube.com', 'google.com']
 # TODO: INFINITE LOOP
 #       - Block
 #       - Unblock
-start_hr = 8
-start_min = 0
-end_hr = 17
-end_min = 0
+start_hr = int(input("Enter start hour: "))
+start_min = int(input("Enter start minute: "))
+end_hr = int(input("Enter end hour: "))
+end_min = int(input("Enter end minute: "))
 while True:
     dt_start_time = dt(dt.now().year, dt.now().month, dt.now().day, start_hr, start_min)
     dt_end_time = dt(dt.now().year, dt.now().month, dt.now().day, end_hr, end_min)
