@@ -20,9 +20,9 @@ pip install requirements.txt
 
 ## Usage
 
-Run main.py with administrator privilege and configure blocking time
+Run <b>main.py</b> with administrator privilege and configure blocking time
 
-To use the GUI version of the code, run GUI.py as administrator
+To use the GUI version of the code, run <b>GUI.py</b> as administrator
 Here is the screenshot:
 
 <p align="center">
